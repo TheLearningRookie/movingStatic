@@ -13,7 +13,7 @@ body, html{
 }
 .navigationList{
    list-style-type: none;
-   padding: 0px 0px 0px 20px;
+   padding: 0px 20px;
    margin: 22px 0;
    float: right;
 }
@@ -26,7 +26,7 @@ body, html{
 a{
    text-decoration: none;
    color: #fdfddf;
-   padding: 25px 5px;
+   padding: 22px 5px;
 }
 a:hover{
    background-color: #434343;
@@ -34,4 +34,3 @@ a:hover{
    transition: background-color 0.3s;
    border-radius: 1px;
 }
-
