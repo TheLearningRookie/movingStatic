@@ -11,26 +11,49 @@ body, html{
    display: inline-block;
    vertical-align: middle;
 }
-.navigationList{
+.headerNavigationList{
    list-style-type: none;
    padding: 0px 20px;
    margin: 22px 0;
    float: right;
 }
-.navigationList li{
+.headerNavigationList li{
    display: inline;
 }
-.navigation a{
-   display: inline-block;
-}
-a{
+.headerNavigationList a{
    text-decoration: none;
    color: #fdfddf;
-   padding: 22px 5px;
+   padding: 22px 15px;
 }
-a:hover{
+.headerNavigationList a:hover{
    background-color: #434343;
-   padding: 22px 5px;
+   padding: 22px 15px;
    transition: background-color 0.3s;
    border-radius: 1px;
+}
+.sidebarWrapper{
+   background-color: #434343;
+   width: 250px;
+   height: 100%;
+   display: inline-block;
+}
+.sidebarNavigationList{
+   list-style-type: none;
+   padding: 0px 0px;
+   margin: 0px 0px;
+   display: block;
+}
+.sidebarNavigationList a{
+   text-decoration: none;
+   color: #fdfddf;
+   font-weight: light;
+   padding: 10px 25px;
+   display: block;
+}
+.sidebarNavigationList a:hover{
+   background-color: #5e5e5e;
+   padding: 10px 25px;
+   transition: background-color 0.3s;
+   border-radius: 1px;
+   display: block;
 }
